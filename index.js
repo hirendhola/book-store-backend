@@ -11,7 +11,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 app.use(cors({
     // origin: "http://localhost:5173",
-    origin: "bookStore.vercel.app",
+    origin: "https://book-store-frontend-theta.vercel.app",
     methods: ['GET', 'POST', 'DELETE', 'PUT'],
     allowedHeaders: ['Content-Type']
 }));
